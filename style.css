@@ -1,0 +1,21 @@
+
+@media only screen and (max-width: 410px) 
+{
+    body {background-color: red;}
+    #large{display: none;}
+    #medium{display: none;}
+}
+
+@media only screen and (min-width: 410px) 
+{
+    body {background-color: blue;}
+    #small{display: none;}
+    #large{display: none;}  
+}
+
+@media only screen and (min-width: 768px) 
+{
+    body {background-color: green;}
+    #small{display: none;}
+    #medium{display: none;}
+}
